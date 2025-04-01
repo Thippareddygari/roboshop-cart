@@ -1,5 +1,5 @@
 name: cart ci
-on: push
+on: [push,workflow_dispatch]
 jobs: 
   call-common-workflow:
     uses: Thippareddygari/github-actions-reusable/.github/workflows/ci.yaml@main
